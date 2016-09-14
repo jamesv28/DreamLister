@@ -4,12 +4,12 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/DreamListerUITests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamListerUITests/DreamListerUITests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/DreamLister/Item+CoreDataClass.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DreamLister/ItemDetailsVC.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Image+CoreDataProperties.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Store+CoreDataClass.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/DreamLister/ItemCell.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DreamLister/CustomTextField.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/MaterialView.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Image+CoreDataClass.swift" isTestSource="false" />
@@ -18,7 +18,9 @@
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Base.lproj/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/DreamLister.xcdatamodeld/DreamLister.xcdatamodel" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DreamLister/ItemCell.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Item+CoreDataProperties.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DreamLister/Item+CoreDataClass.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Store+CoreDataProperties.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/ItemType+CoreDataProperties.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamListerTests/Info.plist" isTestSource="false" />

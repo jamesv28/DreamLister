@@ -16,6 +16,7 @@ class ItemDetailsVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSou
     @IBOutlet weak var priceField: CustomTextField!
     @IBOutlet weak var detailsField: CustomTextField!
 
+    var itemToEdit: Item?
     var stores = [Store]()
     
     override func viewDidLoad() {
@@ -46,9 +47,13 @@ class ItemDetailsVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSou
         store5.name = "Amazon"
         let store6 = Store(context: context)
         store6.name = "Cherry Creek Mall"
-        // ad.saveContext()
+         ad.saveContext()
         
         getStores()
+        
+        if itemToEdit != nil {
+            loadItemData()
+        }
         
     }  // end of viewDidLoad
     
@@ -84,5 +89,63 @@ class ItemDetailsVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSou
         }
     
     }  //   get stores from core data
+
+    @IBAction func savePress(_ sender: AnyObject) {
+        //let item = Item(context: context)
+        
+        var item: Item!
+        if itemToEdit == nil {
+            item = Item(context: context)
+        } else {
+            item = itemToEdit
+        }
+        
+        if let title = titleField.text {
+            item.title = title
+        }
+
+        if let price = priceField.text {
+            //  change and manipulate the pries field: here is how we do it
+            item.price = (price as NSString).doubleValue
+        }
+
+        if let details = detailsField.text {
+            item.details = details
+        }
+
+        //  get the relationship to the store
+        item.toStore = stores[storePicker.selectedRow(inComponent: 0)]
+
+        ad.saveContext()
+
+        // go back to the main screen after saving
+        _ = navigationController?.popViewController(animated: true)
+
+
+    }
+    
+    func loadItemData() {
+
+        if let item = itemToEdit {
+            titleField.text = item.title
+            priceField.text = "\(item.price)"
+            detailsField.text = item.details
+
+            if let store = item.toStore {
+
+                var index = 0
+                repeat {
+                    let s = stores[index]
+                    if s.name == store.name {
+                        storePicker.selectRow(index, inComponent: 0, animated: false)
+                        break
+                    }
+                    index += 1
+                } while (index < stores.count)
+
+
+            }
+        }
+    }   // end of loading item data
 
 } // end of item details controller
