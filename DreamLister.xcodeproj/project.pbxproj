@@ -25,6 +25,8 @@
 		02EF05D41D87126A006624A3 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF05CC1D87126A006624A3 /* ItemType+CoreDataProperties.swift */; };
 		02EF05D91D8737D9006624A3 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF05D81D8737D9006624A3 /* MaterialView.swift */; };
 		02EF05DB1D873D8F006624A3 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF05DA1D873D8F006624A3 /* ItemCell.swift */; };
+		AA74CE131D89B13600F68F5C /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74CE121D89B13600F68F5C /* ItemDetailsVC.swift */; };
+		AA74CE151D89B8A900F68F5C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74CE141D89B8A900F68F5C /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		02EF05CC1D87126A006624A3 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		02EF05D81D8737D9006624A3 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		02EF05DA1D873D8F006624A3 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		AA74CE121D89B13600F68F5C /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
+		AA74CE141D89B8A900F68F5C /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +126,7 @@
 				02EF05D71D8737B6006624A3 /* View */,
 				02EF05D51D871488006624A3 /* Model */,
 				02EF05941D870C0A006624A3 /* AppDelegate.swift */,
-				02EF05961D870C0A006624A3 /* MainVC.swift */,
+				AA74CE0F1D89B04900F68F5C /* Controller */,
 				02EF05981D870C0A006624A3 /* Main.storyboard */,
 				02EF059E1D870C0A006624A3 /* Assets.xcassets */,
 				02EF05A01D870C0A006624A3 /* LaunchScreen.storyboard */,
@@ -177,9 +181,19 @@
 			isa = PBXGroup;
 			children = (
 				02EF05D81D8737D9006624A3 /* MaterialView.swift */,
+				AA74CE141D89B8A900F68F5C /* CustomTextField.swift */,
 				02EF05DA1D873D8F006624A3 /* ItemCell.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		AA74CE0F1D89B04900F68F5C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				02EF05961D870C0A006624A3 /* MainVC.swift */,
+				AA74CE121D89B13600F68F5C /* ItemDetailsVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,11 +338,13 @@
 				02EF05971D870C0A006624A3 /* MainVC.swift in Sources */,
 				02EF05CE1D87126A006624A3 /* Image+CoreDataProperties.swift in Sources */,
 				02EF05D21D87126A006624A3 /* Store+CoreDataProperties.swift in Sources */,
+				AA74CE131D89B13600F68F5C /* ItemDetailsVC.swift in Sources */,
 				02EF05951D870C0A006624A3 /* AppDelegate.swift in Sources */,
 				02EF05D41D87126A006624A3 /* ItemType+CoreDataProperties.swift in Sources */,
 				02EF05D11D87126A006624A3 /* Store+CoreDataClass.swift in Sources */,
 				02EF059D1D870C0A006624A3 /* DreamLister.xcdatamodeld in Sources */,
 				02EF05CD1D87126A006624A3 /* Image+CoreDataClass.swift in Sources */,
+				AA74CE151D89B8A900F68F5C /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +589,7 @@
 				02EF05BE1D870C0A006624A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02EF05BF1D870C0A006624A3 /* Build configuration list for PBXNativeTarget "DreamListerTests" */ = {
 			isa = XCConfigurationList;
@@ -581,6 +598,7 @@
 				02EF05C11D870C0A006624A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02EF05C21D870C0A006624A3 /* Build configuration list for PBXNativeTarget "DreamListerUITests" */ = {
 			isa = XCConfigurationList;
@@ -589,6 +607,7 @@
 				02EF05C41D870C0A006624A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
