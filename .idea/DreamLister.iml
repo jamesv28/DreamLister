@@ -5,23 +5,23 @@
       <sourceFolder url="file://$MODULE_DIR$/DreamListerUITests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamListerUITests/DreamListerUITests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/DreamLister/ItemDetailsVC.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Image+CoreDataProperties.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/DreamLister/Store+CoreDataClass.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DreamLister/Item+CoreDataClass.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/CustomTextField.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/DreamLister/MaterialView.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DreamLister/ItemDetailsVC.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Image+CoreDataClass.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/MainVC.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DreamLister/MaterialView.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/ItemType+CoreDataClass.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Base.lproj/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/DreamLister.xcdatamodeld/DreamLister.xcdatamodel" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/ItemCell.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Item+CoreDataProperties.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/DreamLister/Item+CoreDataClass.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/Store+CoreDataProperties.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DreamLister/Store+CoreDataClass.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamLister/ItemType+CoreDataProperties.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamListerTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DreamListerTests/DreamListerTests.swift" isTestSource="false" />
@@ -71,6 +71,7 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Frameworks/AVFAudio.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PushKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />
@@ -162,6 +163,7 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Frameworks/AVFAudio.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PushKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />

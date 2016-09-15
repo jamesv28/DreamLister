@@ -5,9 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DreamLister.xcodeproj/project.xcworkspace/xcuserdata/jamesvolmert.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/DreamLister.xcodeproj/project.xcworkspace/xcuserdata/jamesvolmert.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DreamLister.iml" afterPath="$PROJECT_DIR$/.idea/DreamLister.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DreamLister/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/DreamLister/Base.lproj/Main.storyboard" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DreamLister/ItemDetailsVC.swift" afterPath="$PROJECT_DIR$/DreamLister/ItemDetailsVC.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DreamLister/MainVC.swift" afterPath="$PROJECT_DIR$/DreamLister/MainVC.swift" />
     </list>
     <ignored path="DreamLister.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +19,7 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_438f07c2c892d2cf5758373a1f9d557d79387ec8" />
   <component name="FavoritesManager">
     <favorites_list name="DreamLister" />
   </component>
@@ -30,8 +28,18 @@
       <file leaf-file-name="ItemDetailsVC.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DreamLister/ItemDetailsVC.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="49" selection-end-column="25" />
+            <state relative-caret-position="672">
+              <caret line="37" column="47" selection-start-line="35" selection-start-column="10" selection-end-line="37" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainVC.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DreamLister/MainVC.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="35" column="53" selection-start-line="32" selection-start-column="8" selection-end-line="35" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -40,7 +48,7 @@
       <file leaf-file-name="AppDelegate.swift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DreamLister/AppDelegate.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
+            <state relative-caret-position="2880">
               <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
               <folding />
             </state>
@@ -95,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -141,7 +150,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,18 +196,19 @@
       <workItem from="1473886624333" duration="4000" />
       <workItem from="1473886726987" duration="183000" />
       <workItem from="1473890727231" duration="615000" />
+      <workItem from="1473903895685" duration="394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4018000" />
+    <option name="totallyTimeSpent" value="4412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21274355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1569247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -249,25 +258,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DreamLister/MainVC.swift">
+    <entry file="file://$PROJECT_DIR$/DreamLister/AppDelegate.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="2880">
+          <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DreamLister/AppDelegate.swift">
+    <entry file="file://$PROJECT_DIR$/DreamLister/MainVC.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+        <state relative-caret-position="672">
+          <caret line="35" column="53" selection-start-line="32" selection-start-column="8" selection-end-line="35" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DreamLister/ItemDetailsVC.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="49" selection-end-column="25" />
+        <state relative-caret-position="672">
+          <caret line="37" column="47" selection-start-line="35" selection-start-column="10" selection-end-line="37" selection-end-column="47" />
           <folding />
         </state>
       </provider>

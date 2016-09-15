@@ -19,7 +19,11 @@ class ItemDetailsVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSou
 
     var itemToEdit: Item?
     var stores = [Store]()
-    
+
+    // adding a gesture
+    let pinchRec = UIPinchGestureRecognizer()
+
+
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -27,7 +31,11 @@ class ItemDetailsVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSou
         imagePickerBtn.isAccessibilityElement = true
         imagePickerBtn.accessibilityLabel = "Click to select an image"
         // Do any additional setup after loading the view.
-        
+
+        //  add gesture recognizer for table view
+//        storePicker.addTarget(self, action: "pinchedView")
+//        pinchView.userInteractionEnabled = true
+//        pinchView.multipleTouchEnabled = true
         if let topItem = self.navigationController?.navigationBar.topItem {
             
             topItem.backBarButtonItem = UIBarButtonItem(title: "Home", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
