@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3M6-aD-RMu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3M6-aD-RMu">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -203,7 +203,7 @@
                                     <action selector="savePress:" destination="RH9-8S-CJY" eventType="touchUpInside" id="MwP-YH-jSg"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imagePick" translatesAutoresizingMaskIntoConstraints="NO" id="s4z-Yh-WEZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imagePick" translatesAutoresizingMaskIntoConstraints="NO" id="s4z-Yh-WEZ">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="kdq-fM-g6t"/>
                                     <constraint firstAttribute="width" constant="100" id="yAj-Dk-QZJ"/>
@@ -214,6 +214,9 @@
                                     <constraint firstAttribute="width" constant="100" id="7oG-mR-Y9V"/>
                                     <constraint firstAttribute="height" constant="100" id="b8Y-9W-K5f"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="addImage:" destination="RH9-8S-CJY" eventType="touchUpInside" id="vsb-Lh-7zP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -245,11 +248,15 @@
                     <navigationItem key="navigationItem" title="Add/Edit" id="WGZ-8r-gHV">
                         <barButtonItem key="rightBarButtonItem" systemItem="trash" id="xaN-0u-2JZ">
                             <color key="tintColor" red="0.78586590106670673" green="0.17295604402353182" blue="0.35707313085556069" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="deletePressed:" destination="RH9-8S-CJY" id="Wh7-iL-nBb"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="detailsField" destination="vwg-a0-kfb" id="vbV-Eg-jdY"/>
                         <outlet property="imagePickerBtn" destination="Jca-cJ-6ge" id="gz1-ni-eJT"/>
+                        <outlet property="imgPick" destination="s4z-Yh-WEZ" id="1fh-ys-EEu"/>
                         <outlet property="priceField" destination="ry7-hI-m7v" id="xO7-al-af8"/>
                         <outlet property="storePicker" destination="uy7-3S-cKB" id="li5-ve-F4U"/>
                         <outlet property="titleField" destination="of3-Wq-gzj" id="cLJ-2D-hwy"/>
