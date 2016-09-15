@@ -264,6 +264,7 @@
 				TargetAttributes = {
 					02EF05901D870C0A006624A3 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XCNNGSN67G;
 						ProvisioningStyle = Automatic;
 					};
 					02EF05A71D870C0A006624A3 = {
@@ -496,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XCNNGSN67G;
 				INFOPLIST_FILE = DreamLister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com..DreamLister;
@@ -508,6 +510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XCNNGSN67G;
 				INFOPLIST_FILE = DreamLister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com..DreamLister;

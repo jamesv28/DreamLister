@@ -11,6 +11,7 @@ import CoreData
 
 class ItemDetailsVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
     
+    @IBOutlet weak var imagePickerBtn: UIButton!
     @IBOutlet weak var storePicker: UIPickerView!
     @IBOutlet weak var titleField: CustomTextField!
     @IBOutlet weak var priceField: CustomTextField!
@@ -23,6 +24,8 @@ class ItemDetailsVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSou
         
         super.viewDidLoad()
 
+        imagePickerBtn.isAccessibilityElement = true
+        imagePickerBtn.accessibilityLabel = "Click to select an image"
         // Do any additional setup after loading the view.
         
         if let topItem = self.navigationController?.navigationBar.topItem {
@@ -148,4 +151,15 @@ class ItemDetailsVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSou
         }
     }   // end of loading item data
 
+    
+    // list of accessibility functions to use
+    //  var isAccessibilityElement: Bool
+    //  var accessibilityLabel: String?
+    
+    //  var accessibilityHint: String?
+    //  var accessibilityValue: String?
+    //  var accessibilityTraits: UIAccessibilityTraits
+    //  var accessibilityFrame: CGFloat
+    
+    
 } // end of item details controller

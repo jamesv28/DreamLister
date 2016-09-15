@@ -15,6 +15,9 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var segment: UISegmentedControl!
     
+    //  create variable for pinch gesture
+    let pinchRec = UIPinchGestureRecognizer()
+    
     var controller: NSFetchedResultsController<Item>!
     
     override func viewDidLoad() {
@@ -23,8 +26,14 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         tableView.delegate = self
         tableView.dataSource = self
         
-        generateTestData()
+        // generateTestData()
         attemptFetch()
+        
+        
+        //  add gesture recognizer for table view
+        //  tableView.addTarget(self, action: "pinchedView")
+        //  pinchedView.userInteractionEnabled = true
+        //    pinchedView.multipleTouchEnabled = true
         
     }
     
